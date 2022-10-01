@@ -1,0 +1,49 @@
+body{
+    color: rgb(252, 240, 5,0.4);
+    background-color: rgb(0,0,0,0.5);
+}
+
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #7ac9b0;
+}
+
+a:hover{
+    color:white
+}
+
+a:visited{
+    color:red;
+}
+
+#subtituloPrincipal {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+.parrafo {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blockquote {
+    font-style: italic;
+}
+
+.popup {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    border:1px solid;
+    right: 5px;
+    top: 10px;
+    z-index: 3;
+    background-color: rgb(0,0,0,0.5);
+    visibility:hidden;
+}
+
+p::first-line{
+    color:blue;
+    text-transform: uppercase;
+}
